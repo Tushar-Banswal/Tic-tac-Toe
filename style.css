@@ -1,0 +1,154 @@
+body {
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(rgb(122, 122, 221),rgb(83, 238, 238));
+    font-family:cursive;
+}
+header{
+    height:20vh;
+    font-size: 40px;
+    text-align: center;
+}
+header p:hover {
+    font-size: 41px;
+}
+header #message {
+    font-size: 25px;
+}
+header #name {
+    font-size: 25px;
+    text-align: center;
+    margin:15px;
+    color:rgb(92, 235, 92)
+}
+.body {
+    height:60vh;
+    
+}
+.body #tab-tic-tac-toe {
+    border:none;
+    border-collapse: collapse;
+    width :50vw;
+    height:40vh;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#tab-tic-tac-toe td {
+    border:8px solid black;
+    padding:0;
+    width:50px;
+    height:50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+#tab-tic-tac-toe td {
+    cursor: pointer;
+}
+#tab-tic-tac-toe .zero,#tab-tic-tac-toe .one,#tab-tic-tac-toe .two{
+    border-top: none;
+    
+}
+#tab-tic-tac-toe .zero,#tab-tic-tac-toe .three,#tab-tic-tac-toe .six {
+    border-left: none;
+}
+#tab-tic-tac-toe .six,#tab-tic-tac-toe .seven,#tab-tic-tac-toe .eight {
+    border-bottom: none;
+}
+#tab-tic-tac-toe .two,#tab-tic-tac-toe .five,#tab-tic-tac-toe .eight {
+    border-right: none;
+}
+.buttons {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.buttons #bnt-restart {
+    margin:0;
+    margin-right: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+    color:rgb(0, 153, 255);
+    font-size: large;
+}
+.buttons #bnt-restart:hover {
+    font-size: larger;
+    cursor: pointer;
+}
+.buttons #back {
+    margin:0;
+    margin-right: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+    color:rgb(0, 153, 255);
+    font-size: large;
+}
+.buttons #back:hover {
+    font-size: larger;
+    cursor: pointer;
+}
+.buttons #back a {
+    text-decoration: none;
+    color:rgb(0, 153, 255);
+}
+footer {
+    padding-top:30px;
+    height:5vh;
+    text-align: center;
+    font-size: 20px;
+    
+}
+footer p:hover{
+    font-size: 21px;
+}
+.menu {
+    text-align: center;
+    padding-top: 5vh;
+    height:40vh;
+}
+#player {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 40px;
+}
+.menu #pl1 {
+    padding:20px 50px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border:none;
+    font-size: 20px;
+}
+.menu #pl1 a {
+    text-decoration: none;
+    color:rgb(0, 153, 255);
+}
+.menu #pl1:hover {
+    font-size: 23px;
+    cursor: pointer;
+}
+.menu #pl2 {
+    padding:20px 50px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border:none;
+    font-size: 20px;
+}
+.menu #pl2 a {
+    text-decoration: none;
+    color:rgb(0, 153, 255);
+}
+.menu #pl2:hover {
+    font-size: 23px;
+    cursor: pointer;
+}
+body h1{
+    text-align: center;
+    font-size: 40px;
+}
